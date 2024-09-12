@@ -1,0 +1,36 @@
+{
+  "name": "ReadNFT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc --skipLibCheck && node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.12",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@ton/core": "^0.57.0",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.0.0",
+    "@tonconnect/sdk": "^3.0.5",
+    "@types/sequelize": "^4.28.20",
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.4.5",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "ton": "^11.18.2",
+    "ton-compiler": "^1.0.0",
+    "ton-contract-executor": "^0.5.2",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0",
+    "uuid": "^10.0.0"
+  }
+}
